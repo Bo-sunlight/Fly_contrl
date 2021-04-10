@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I .\build -I .\Libraries\STM32F4xx_StdPeriph_Driver\inc -I .\Libraries\CMSIS\Include -I .\Libraries\CMSIS\ST\STM32F4xx\Include -I .\Libraries\USBStack\INC -I .\Libraries\FatFS\src -I .\SRC\applications -I .\SRC\drivers -I .\SRC\fc_general -I .\SRC\fc_specific -I .\Libraries\VL53L0X\inc -I .\User --c99
+-I.\RTE\_Ano_Pioneer
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="523" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS
+-o .\build\usart4_init.o --omf_browse .\build\usart4_init.crf --depend .\build\usart4_init.d "SRC\openmv_data\USART4_Init.c"
